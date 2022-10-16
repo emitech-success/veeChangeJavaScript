@@ -1,0 +1,15 @@
+/* colours */
+:root{
+  --color-secondary: rgba(247, 152, 36, 1);
+  --color-secondary-light: #FBB76B;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #2588F8;
+  --color-primary-dark: #0D3A6C;
+  --color-primary-light: #9FC3EC;
+  --color-primary-lightest: #F7FBFF;
+  --color-btn-bg: linear-gradient(180deg, #FDFDFD 10.73%, rgba(253, 253, 253, 0.94) 84.69%, rgba(253, 253, 253, 0.54) 100%);
+  --color-invited-coma: linear-gradient(180deg, #C2C9D1 0%, rgba(194, 201, 209, 0.14) 100%);
+
+
+}
