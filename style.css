@@ -1,3 +1,10 @@
+/* style reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* colours */
 :root{
   --color-secondary: rgba(247, 152, 36, 1);
@@ -11,5 +18,92 @@
   --color-btn-bg: linear-gradient(180deg, #FDFDFD 10.73%, rgba(253, 253, 253, 0.94) 84.69%, rgba(253, 253, 253, 0.54) 100%);
   --color-invited-coma: linear-gradient(180deg, #C2C9D1 0%, rgba(194, 201, 209, 0.14) 100%);
 
-
 }
+/* Utility class starts here*/
+.container{
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+/* Utility class ends here*/
+
+.nav-hero-wrapper{
+  background-color: var(--color-primary-dark);
+}
+
+ /* Nav section starts here  */
+.nav-wrapper{
+  display: flex;
+  gap: 12.5rem;
+}
+.list-items{
+  display: flex;
+  list-style: none;
+}
+.item{
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  
+}
+.item a{
+  color: var(--color-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+ /* Nav section ends here  */
+
+  /* Hero section start here  */
+  .hero-wrapper{
+    display: flex;
+    width: 100%;
+    padding: 4rem 0rem 0rem 0rem;
+    margin-right: -40px;
+  }
+  .hero-left h3{
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 4.25rem;
+    color: var(--color-white);
+    margin-bottom: 0.825rem;
+  }
+  .hero-left h3>span{
+    color: var(--color-secondary);
+  }
+
+  .checked-text{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 2rem;
+  }
+  .checked-good-text h6 {
+    padding-bottom: 7px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--color-white);
+  }
+  .checked-good{
+    padding: 2px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+  }
+
+
+
+
+  #hero-right-img{
+    width: 709px;
+    height: 729px;
+  }
+  /* Hero section ends here  */
+
+ /* main section starts here */
+
+ /* main section ends here */
+
+ /* footer section starts here */
+
+  /* footer section ends here */
