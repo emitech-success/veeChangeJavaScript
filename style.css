@@ -91,17 +91,181 @@
     color: var(--color-white);
   }
 
-
-
-
   #hero-right-img{
     width: 709px;
     height: 729px;
   }
+  .hero-buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 4.5rem;
+  }
+  .hero-btn{
+    background: linear-gradient(180deg, #FDFDFD 10.73%, 
+    rgba(253, 253, 253, 0.94) 84.69%, rgba(253, 253, 253, 0.54) 100%);
+    display: flex;
+    gap: 20px;
+    width: 180px;
+    height: 53px;
+    /* padding: 0px 10px; */
+    /* border: 1px solid red; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 10px; */
+  }
+
+  .button-icon{
+    padding-top: 0.8rem;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-white);
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .button-text{
+    padding-top: 0.6rem;
+  }
   /* Hero section ends here  */
 
  /* main section starts here */
+  .cta-section{
+    display: flex;
+    width: 100%;
+  }
+  .cta-left{
+    width: 50%;
+  }
+  .cta-right{
+    width: 50%;
+  }
+  .cta-left-content{
+    margin-top: 1rem;
+  }
+  .cta-left-content h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--color-black);
+    margin-bottom: 2rem;
+  }
+  .cta-left-content p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 1rem;
+}
+.img-scan{
+    margin-bottom: 2rem;
+  }
+.cta-img{
+  width: 100%;
+} 
+.cta-btn{
+  margin-top: 1rem;
+}
+/* how-it-work-card-section starts here*/
+.how-it-works-wrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color-primary-dark);
+  color: var(--color-white);
+}
+.how-it-works-wrapper p{
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 1rem;
+}
+.how-it-works-wrapper small{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  /* margin-bottom: 1rem; */
+}
+.how-it-works-img{
+  margin-top: 2rem;
+  z-index: 5;
+}
 
+/* how it works cards */
+.how-it-work-card-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.how-it-work-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+.how-it-work-card p{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 1rem;
+}
+.how-it-work-card small{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+#how-it-works-line{
+  position: absolute;
+  left: -4rem;
+}
+
+/* Meet our team starts here*/
+.our-team-gallery{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* gap: 20px; */
+}
+ /* .our-team-left{
+  width: 100%;
+  /* background-image: url('./assets/meetOurTeam/macauley.png') cover center/cover; */
+/* } */
+/*.our-team-right{
+  width: 18%;
+}  */
+#macauley{
+  width: 100%;
+  /* max-width: 768px;*/
+  max-height: 780px; 
+  position: relative;
+}
+#ivan, #elen{
+  /* position: relative; */
+  /* width: 100%; */
+  max-width: 700px;
+  max-height: 384px;  
+}
+.member-details{
+  position: relative;
+}
+.member-name-title{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  color: var(--color-white);
+}
+/* Meet our team ends here*/
  /* main section ends here */
 
  /* footer section starts here */
